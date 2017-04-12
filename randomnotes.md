@@ -7,11 +7,7 @@
 * git diff
 
 
-### www.
- github
- gitlab
- bitbucketls
- .com
+### www. github .gitlab .bitbucketls .com
 
 #### Jos githubin projektiin ei ole tehty lisenssitiedosta niin komennot eivät toimi
 #### muista järjestys jne.
