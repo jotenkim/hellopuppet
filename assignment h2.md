@@ -99,6 +99,10 @@ Notice: Compiled catalog for xubuntu.tielab.haaga-helia.fi in environment produc
 Notice: /Stage[main]/Aliasmoduli/File[/etc/bash.bashrc]/content: content changed '{md5}d80b5c72ee089f1e43de3f084a69495c' to '{md5}05ca2387e196d487fd0e279365bf0d79'
 Notice: Finished catalog run in 0.02 seconds</pre>
 
+#### First you have to remember to open a new terminal for the setting to take effect
+
+`ctrl + alt + t`
+
 #### I do a few commands and test the history bash alias
 
 <pre>xubuntu@xubuntu:~$ h
