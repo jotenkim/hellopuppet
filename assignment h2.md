@@ -8,6 +8,13 @@
 Intel(R) Core(TM) i5-5200U CPU @ 2.20G
 Linux Live USB with Xubuntu 16.04 LTS 64-bit</pre>
 
+#h2. 
+
+#### a) Create the report of this assignment with markdown into Github
+
+#### b) Create a puppet-module, that makes the settings to a shell-based program or a tool using the graphical ui.
+
+
 #### First I do the initial settings and installations for the assignment
 
 * $ setxkbmap fi
