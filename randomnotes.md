@@ -1,11 +1,4 @@
 # GIT (shell)
-## jotain komentoja
-
-* git init projektinnimi (luo kansion / projektin)
-* git add . (alustaa tiedostot)
-* Git commit
-* git diff
-
 
 ### www. github .gitlab .bitbucketls .com
 
@@ -14,14 +7,19 @@
 <pre>
   git clone https://github.com/jotenkim/hellopuppet.git
   cd hellopuppet/
+  git init projektinnimi (luo kansion / projektin)
   nano markdown.md
   git add .
   git commit
   git pull
   git push
   git log
+  git hard reset (previous commit)
 </pre>
 
 #### package - file - service
+
+* notify
+
 
 
