@@ -81,10 +81,8 @@ Linux Live USB with Xubuntu 16.04 LTS 64-bit</pre>
 #### I install the module through Git on a clean install of Linux and test it out
 
 <pre>
-     $ sudo apt-get install git
      $ setxkbmap fi
      $ sudo apt-get install git
-     $ git clone github.com/jotenkim/hellopuppet
      $ git clone http://github.com/jotenkim/hellopuppet
      $ cd hellopuppet/
      $ sudo apt-get install puppet
