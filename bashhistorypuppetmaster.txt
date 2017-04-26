@@ -1,0 +1,212 @@
+    1  sudo apt-get puppet
+    2  sudo apt-get install puppet
+    3  sudo apt-get install puppetmaster
+    4  sudo apt-get purge puppetmaster
+    5  /etc/puppet/
+    6  ls
+    7  cd /etc/puppet/
+    8  ls
+    9  sudoedit puppet.conf 
+   10  ping billy.local
+   11  cd
+   12  cd /etc/puppet
+   13  ls
+   14  cd ..
+   15  cd default/
+   16  ls
+   17  sudoedit puppetqd 
+   18* 
+   19  sudoedit puppetqd 
+   20  sudoedit puppet
+   21  cd ..
+   22  sudo service puppet stop
+   23  sudo service puppet restart
+   24  cd default/
+   25  ls
+   26  rm puppet
+   27  sudo rm puppet
+   28  ls
+   29  sudo agent -tdv
+   30  sudo puppet agent -tdv
+   31  hostname --help
+   32  hostname kimchilinux
+   33  sudo hostname kimchilinux
+   34  hostname
+   35  sudo service puppet stop
+   36  cd
+   37  sudo service puppet stop
+   38  sudo rm -r /var/lib/puppet/ssl
+   39  hostname --help
+   40  whereis hostname
+   41  cd /etc/hostname
+   42  nano /etc/hostname
+   43  sudoedit /etc/hostname
+   44  sudo service puppet stop
+   45  sudoedit /etc/host
+   46  sudoedit /etc/hosts
+   47  hostname
+   48  ping kimchilinux
+   49  sudo puppet service stop
+   50  sudo service puppet stop
+   51  sudo rm -r/var/lib/puppet/ssl
+   52  sudo rm -rf /var/lib/puppet/ssl
+   53  sudo service puppet restart
+   54  puppet agent -tdv
+   55  billy.local agent -tdv
+   56  puppet billy.local agent -tdv
+   57  puppet agent -tdv
+   58  sudo puppet agent -tdv
+   59  ls
+   60  sudo service puppet restart
+   61  ls
+   62  cd /tmp/
+   63  ls
+   64  refresh
+   65  xrefresh
+   66  ls
+   67  sudo service puppet restart
+   68  ls
+   69  sudo service puppet stop
+   70  sudo service puppet start
+   71  ls
+   72  cd
+   73  ls
+   74  sudo puppet agent -tdv
+   75  history
+   76  sudo rm -rf /var/lib/puppet/ssl
+   77  sudo service puppet stop
+   78  sudo rm -rf /var/lib/puppet/ssl
+   79  sudo apt-remove puppetmaster
+   80  sudo apt-get remove puppetmaster
+   81  sudo apt-get purge puppetmaster
+   82  history
+   83  sudo puppet agent -tdv
+   84  ls
+   85  cd /tmp/
+   86  ls
+   87  ls -a
+   88  ls
+   89  sudo puppet agent -tdv
+   90  ls
+   91  cd
+   92  cat /tmp/hellobilly.txt
+   93  sudo puppet agent -tdv
+   94  cat /tmp/hellobilly.txt
+   95  sudo puppet agent -tdv
+   96  sudo puppet agent --enable
+   97  sudo puppet agent -tdv
+   98  cd /tmp/
+   99  ls
+  100  grep hellobilly
+  101  find hellobilly
+  102  cat hellobilly.txt 
+  103  grep -r hellobilly
+  104  sudo grep -r hellobilly
+  105  egrep
+  106  egrep --help
+  107  grep -i 'billy'
+  108  cd
+  109  s
+  110  ls
+  111  history
+  112  sudo rm -rf /var/lib/puppet/ssl
+  113  ping kimchilinux.local
+  114  sudo apt-get -y install avahi-utils
+  115  ping kimchilinux.local
+  116  ping xubuntu.local
+  117  hostname
+  118  pwd
+  119  sudo apt-get -y install puppetmaster
+  120  sudo service puppetmaster stop
+  121  sudo rm -r /var/lib/puppet/ssl
+  122  sudoedit /etc/puppet/puppet.conf 
+  123  sudo service puppetmaster start
+  124  ping kimchilinux.local
+  125  hostname
+  126  hostname --help
+  127  dnsdomainname
+  128  domainname 
+  129  domainname kimchilinux
+  130  sudo domainname kimchilinux
+  131  ping kimchilinux.local
+  132  pwd
+  133  hostname.local
+  134  xubuntu.local
+  135  avahi
+  136  sudo apt-get install avahi-utils
+  137  avahi --help
+  138  sudo ls /var/lib/puppet/ssl/certs
+  139  sudo openssl x509 -in /var/lib/puppet/ssl/certs/kimchilinux.tielab.haaga-helia.fi.pem
+  140  sudo openssl x509 -in /var/lib/puppet/ssl/certs/kimchilinux.tielab.haaga-helia.fi.pem -text|grep -i dns
+  141  sudo service puppetmaster start
+  142  sudo hostnamectl set-hostname kimchilinux
+  143  sudo service avahi-daemon restart 
+  144  ping kimchilinux.local
+  145  cd /etc/
+  146  ls
+  147  cd puppet/
+  148  ls
+  149  sudo openssl x509 -in /var/lib/puppet/ssl/certs/kimchilinux.tielab.haaga-helia.fi.pem -text|grep -i dns
+  150  ls
+  151  sudo mkdir -p manifests/ modules/helloworld/manifests
+  152  sudoedit manifests/site.pp
+  153  sudoedit modules/helloworld/manifests/init.pp
+  154  sudo service puppetmaster restart
+  155  sudo puppet cert --list
+  156  sudo puppet cert --sign xubuntu.tielab.haaga-helia.fi
+  157  sudo puppet cert --list
+  158  sudo puppet cert --list -all
+  159  ls
+  160  cd manifests/
+  161  ls
+  162  sudoedit site.pp 
+  163  cd ..
+  164  ls
+  165  cd modules/
+  166  ls
+  167  cat helloworld/
+  168  cd helloworld/
+  169  ls
+  170  cd manifests/
+  171  ls
+  172  cat init.pp 
+  173  ls
+  174  nano init.pp 
+  175  sudoedit init.pp 
+  176  cd /tmp/
+  177  ls
+  178  sudo service puppetmaster restart
+  179  history
+  180  sudo puppet cert --list
+  181  sudo service puppetmaster stop
+  182  sudo rm -r /var/lib/puppet/ssl
+  183  sudo rm -rf /var/lib/puppet/ssl
+  184  sudo service puppetmaster start
+  185  sudo puppet cert --list
+  186  sudo puppet cert --sign xubuntu.tielab.haaga-helia.fi
+  187  cd
+  188  cd /tmp/
+  189  ls
+  190  cd
+  191  cd /etc/puppet/
+  192  cd modules/
+  193  cd helloworld/manifests/
+  194  ls
+  195  sudoedit init.pp 
+  196  cd
+  197  history > bashhistorypuppetmaster.txt
+  198  ls
+  199  cat bashhistorypuppetmaster.txt 
+  200  ls
+  201  puppet cert -list -all
+  202  sudo puppet cert -list -all
+  203  tail /var/log/auth.log
+  204  sudo puppet cert --list -all
+  205  tail /var/log/syslog
+  206  ls
+  207  cp bashhistorypuppetmaster.txt hellopuppet/
+  208  cd hellopuppet/
+  209  ls
+  210  cd ..
+  211  ls
+  212  history > bashhistorypuppetmaster.txt 
